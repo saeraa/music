@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-field {
+    @apply block w-full py-1.5 px-3 text-gray-800 border border-gray-300 transition duration-500 focus:outline-none focus:border-black rounded
+  }
+
+  .submit-btn {
+    @apply block w-full bg-purple-600 text-white py-1.5 px-3 rounded transition hover:bg-purple-700 dark:bg-purple-700 dark:text-gray-200 dark:hover:bg-purple-800 dark:disabled:bg-gray-500 dark:disabled:text-gray-400 disabled:text-gray-200 disabled:bg-gray-500 disabled:cursor-not-allowed
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .input-field {
+      @apply border-gray-700 bg-gray-400 focus:bg-gray-500 text-white;
+    }
+  }
+
+}

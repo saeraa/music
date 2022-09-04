@@ -1,0 +1,104 @@
+a {
+  transition: all 0.15s ease;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, .15);
+}
+
+h1 {
+  text-shadow: 3px 2px 3px rgba(66, 66, 66, 0.45);
+}
+
+/* text-yellow-500 */
+a:hover {
+  color: #F59E0B;
+  text-decoration: none;
+}
+
+.text-orange {
+  color: #F59E0B !important;
+  fill: #F59E0B !important;
+}
+
+.player-scrub,
+.player-song-info {
+  width: calc(100% - 250px);
+}
+
+.top-neg-8 {
+  top: -8px;
+}
+
+.player-song-info {
+  margin-top: -24px;
+}
+
+.card-header .fa.text-orange,
+.card .card-header .fas.text-orange {
+  color: #ff5e3a;
+  fill: #ff5e3a;
+}
+
+.introduction-bg {
+  animation: slide 50s linear infinite;
+  will-change: background-position;
+  z-index: -1;
+}
+
+#playlist li:first-child {
+  padding-top: 15px;
+}
+
+.upload-dropbox.upload-dropbox-drag {
+  color: #fff;
+  background-color: #20d862;
+  border-color: #20d862;
+  border-style: solid;
+}
+
+input[type="file"] {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  background-size: 1rem 1rem;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  animation: progress-bar-stripes 1s linear infinite;
+}
+
+.music-bg {
+  animation: slide 50s linear infinite;
+  will-change: background-position;
+  background-image: url(/assets/theme/img/song-header.png);
+}
+
+@keyframes progress-bar-stripes {
+  0% {
+    background-position: 1rem 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -4000px 0;
+  }
+}
+
+/* 
+tahiti {
+  color: #cffafe;
+  color: #a5f3fc;
+  color: #67e8f9;
+  color: #22d3ee;
+  color: #06b6d4;
+  color: #0891b2;
+  color: #0e7490;
+  color: #155e75;
+  color: #164e63;
+} */
