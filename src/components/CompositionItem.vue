@@ -59,7 +59,7 @@
         in_submission: false,
         show_alert: false,
         alert_variant: "bg-blue-500",
-        alert_message: "Pleae wait! Updating song info.",
+        alert_message: "Please wait! Updating song info.",
       }
     },
     methods: {

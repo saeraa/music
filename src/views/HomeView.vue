@@ -3,7 +3,7 @@
       <!-- Introduction -->
     <section class="mb-8 py-20 text-white dark:text-gray-300 text-center relative">
       <div class="absolute inset-0 w-full h-full bg-cover introduction-bg drop-shadow-xl"
-        style="background-image: url(assets/img/header.png)"></div>
+        style="background-image: url(/assets/img/header.png)"></div>
       <div class="container mx-auto">
         <div class="text-white dark:text-gray-200 main-header-content">
           <h1 class="font-bold text-5xl mb-5">Listen to Great Music!</h1>
@@ -16,7 +16,7 @@
         </div>
       </div>
 
-      <img class="relative block mx-auto mt-5 -mb-20 w-auto max-w-full" src="assets/img/introduction-music.png" />
+      <img class="relative block mx-auto mt-5 -mb-20 w-auto max-w-full" src="/assets/img/introduction-music.png" />
     </section>
 
     <!-- Main Content -->
@@ -24,7 +24,7 @@
       <div class="bg-white dark:bg-gray-700 rounded border dark:border-gray-900 border-gray-200 relative flex flex-col">
         <div class="px-6 pt-6 pb-5 font-bold border-b dark:border-gray-900 border-gray-200" 
         v-icon-secondary="{ icon: 'headphones-alt', right: true }">
-        <span class="card-title text-xl">Songs</span>
+        <span class="card-title text-xl dark:text-gray-200">Songs</span>
         <!-- v-icon.right.yellow="'headphones-alt'" -->
           
           <!-- Icon -->

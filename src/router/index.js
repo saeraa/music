@@ -20,7 +20,6 @@ const routes = [{
   name: "manage",
   component: Manage,
   beforeEnter: (to, from, next) => {
-    console.log("Manage Route Guard")
     next()
   },
   meta: {

@@ -1,7 +1,7 @@
 <template>
     <!-- Player -->
-    <div class="fixed bottom-0 left-0 dark:bg-gray-900 bg-white p-5 pb-4 text-left align-top w-full h-18">
-      <div class="relative" v-if="current_song.modified_name">
+    <div class="fixed bottom-0 left-0 dark:bg-gray-900 bg-white p-5 pb-4 text-left align-top w-full h-18" v-if="current_song.modified_name">
+      <div class="relative">
         <!-- Play/Pause Button -->
         <div class="float-left w-7 h-7 leading-3 mt-1">
           <button type="button" @click.prevent="toggleAudio">

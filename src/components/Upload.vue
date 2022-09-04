@@ -2,7 +2,7 @@
       <div class="col-span-1">
         <div class="bg-white dark:bg-gray-700 rounded border dark:border-gray-800 border-gray-200 relative flex flex-col">
           <div class="px-6 pt-6 pb-5 font-bold border-b dark:border-gray-800 border-gray-200">
-            <span class="card-title dark:text-black text-2xl">Upload</span>
+            <span class="card-title dark:text-gray-200 text-2xl">Upload</span>
             <i class="fas fa-upload float-right text-green-400 dark:text-green-600 text-2xl"></i>
           </div>
           <div class="p-6">
